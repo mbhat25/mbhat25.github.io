@@ -1,0 +1,320 @@
+/***********START LAYOUT**********/
+
+header#page-header {
+	width: 28%;
+	height: 768px;
+	float:left;
+	margin-left: 10px;
+}
+
+/*#separator{
+	height: 582px;
+	float:left;
+	width: 2%;
+	background-color: #1C1C1C;
+	margin-top: 1.9em;
+  	margin-left: .5em;
+}*/
+
+ section.images{
+ 	height: 768px;
+ 	margin-right: 10px;
+ 	padding-top: 1.5em;
+ }
+
+/*div.left-nav{
+ 	height: 100%;
+ }*/
+
+#separator{
+  position: fixed;
+  margin-top: 2.1em;
+  margin-left: 25em;
+  height: 582px;
+  float:left;
+  width: 2%;
+  background-color: #1C1C1C;
+}
+
+ div.left-nav{
+  height: 100%;
+  position: fixed;
+  margin-left: 10px;
+ }
+
+/***********END LAYOUT**********/
+
+
+/***********START STYLES**********/
+html{
+	font-size: 16px;}
+
+.clearfix {
+  overflow: auto;
+  width: 100%;
+}
+
+body {
+  	/*background: url(../images/background.jpeg) no-repeat center center fixed;*/
+  	font-family: "willow medium";
+  	/*color: white;*/
+  	color: #1C1C1C;
+  	background-color: white;
+}
+
+#page-header {
+	overflow: hidden;
+	line-height: 1.3;
+}
+
+div.left-nav{
+	/*background-color: #1C1C1C;*/
+}
+
+header h1{
+	text-align: center;
+	font-size: 6.0em;
+	margin-bottom: 40px;
+	margin-top: 0px;
+}
+
+header h1 a{
+	color: inherit;
+	text-decoration: none;
+}
+
+header nav li{
+	text-align: center;
+	font-size: 3.0em;
+	text-transform: uppercase}
+
+header nav li a{
+	color: inherit;
+	text-decoration: none;
+}
+
+#page-header nav li:first-child{
+	/* hides the responsive nav */
+	float:right;
+	display: none;
+	cursor: pointer;
+}
+
+nav{
+	margin-bottom: 6em;
+}
+
+#footer{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+footer{
+	display: none;
+}
+
+#fb,#insta{
+	color: black;
+}
+
+#fb{
+	padding-left: .9em;
+}
+
+p.copyright{
+	font-size: 1em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+
+img {
+	height: 21%;
+	width: 21%;
+	float: right;
+}
+
+.image_row {
+	padding: .6em;
+}
+
+
+
+
+
+/***********END STYLES**********/
+
+
+/***********START RESPONSIVE**********/
+@media screen and (max-width:1920px) and (min-width: 1367px){
+
+
+	#separator{
+		height: 710px;
+		margin-top: 2.2em;
+		margin-left: 28em;
+	}
+
+	section.images{
+ 		margin-right: 10px;
+ 		padding-top: 1.5em;
+ 		margin-left: 33em;
+ }
+
+	 img {
+		height: 25%;
+		width: 25%;
+		float: left;
+}
+
+}
+
+@media screen and (max-width:1290px) and (min-width: 1130px){
+	body{
+
+		font-size: 14px;	
+	}
+
+	header#page-header {
+		width: 28%;
+	}
+
+	#separator{
+		height: 810px;
+		margin-top: 2.2em;
+	}
+
+	section.images{
+ 		margin-right: 10px;
+ 		padding-top: 1.5em;
+ 		margin-left: 33em;
+ 	}
+
+	img {
+		height: 28%;
+		width: 28%;
+		float: left;
+	}
+}
+
+@media screen and (max-width:1130px) and (min-width: 980px){
+	body{
+		font-size: 12px;
+	}
+
+	header#page-header {
+	width: 28%;
+	}
+
+	#separator{
+		height: 475px;
+		margin-top: 2.2em;
+	}
+}
+
+@media screen and (max-width:980px) and (min-width: 768px){
+	body{
+		font-size: 12px;
+	}
+
+	header#page-header {
+		width: 45%;
+	}
+
+	#separator{
+		height: 610px;
+		margin-top: 2.2em;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	body{
+		font-size: 10px;
+		color:white;
+	}
+
+	#page-header nav #responsive-nav {
+		display:block;
+		position: absolute;
+		top:.5em;
+		right:.5em;
+	}
+	ul{
+		height:0;
+		transition:height 1s; /*makes the transition take 1 second*/
+		overflow: hidden;
+	}
+
+	.slideDown{
+	height:15em;
+}
+
+	img {
+		height: 45%;
+		width: 45%;
+		float: left;
+	}
+
+	section.images{
+		padding-left: 3.2em;
+		height: 500px;
+	}
+
+
+	.image_row {
+		padding: .65em;
+	}
+
+	header#page-header {
+		width: 100%;
+		height: 10%;
+		margin-left: 0;
+		background-color: white;
+	}
+
+	div.left-nav{
+		background-color: white;
+		position: static;
+		margin-left: 0;
+	}
+
+	nav {
+		margin-bottom: 1.5em;
+		background-color: white;
+	}
+
+	nav li#links {
+		color: #1C1C1C;
+	}
+
+	#footer{
+		display: none;
+	}
+
+	#separator{
+		display: none;
+	}
+
+	header h1{
+		margin-bottom: 0;
+		text-align: left;
+		font-size: 6.0em;
+		padding-left: .4em;
+		background-color: #1C1C1C;
+	}
+
+	footer{
+		display: inline-block;
+		text-align: center;
+		height: 20px;
+		width: 100%;
+		margin-top: 1.8em;
+	}
+
+	p{
+		font-size: 1.2em;
+		margin-top: 1em;
+	}
+/***********END RESPONSIVE**********/

@@ -1,0 +1,52 @@
+#content{
+  height: 100%;
+  display: inline-block;
+  margin-left: 15em;
+}
+
+section h2{
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: .5em;
+  padding-top: 30px;
+} 
+
+
+p{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+ul.drink_list{
+    font-size: 1.5em;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+
+@media screen and (max-width:980px) and (min-width: 768px){
+#content{
+  height: 100%;
+  display: inline-block;
+  margin-left: 5em;
+}
+
+}
+
+@media screen and (max-width: 768px){
+  #content{
+    color: #1C1C1C;
+    margin-left: 0;
+    width: 100%;
+  }
+
+ul.drink_list{
+  height: 100%;
+  text-align: center;
+}
+
+
+}
+
+
+
