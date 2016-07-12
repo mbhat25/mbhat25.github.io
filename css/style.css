@@ -232,7 +232,6 @@ img {
 @media screen and (max-width: 768px){
 	body{
 		font-size: 10px;
-		color:white;
 	}
 
 	#page-header nav #responsive-nav {
@@ -240,6 +239,7 @@ img {
 		position: absolute;
 		top:.5em;
 		right:.5em;
+		color:white;
 	}
 	ul{
 		height:0;
@@ -249,6 +249,7 @@ img {
 
 	.slideDown{
 	height:15em;
+	background-color: #f1f1f1;
 }
 
 	img {
@@ -303,6 +304,7 @@ img {
 		font-size: 6.0em;
 		padding-left: .4em;
 		background-color: #1C1C1C;
+		color: white;
 	}
 
 	footer{

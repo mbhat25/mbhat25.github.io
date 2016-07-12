@@ -19,7 +19,12 @@ p{
   text-align: center;
 }
 
-ul.drink_list{
+p#open_daily{
+  margin-top:.5em;
+  margin-bottom:.5em;
+}
+
+ul.hours{
     font-size: 1.5em;
     line-height: 1.3em;
     text-align: center;
@@ -49,7 +54,7 @@ ul.drink_list{
   width: 100%;
 }
 
-ul.drink_list{
+ul.hours{
   height: 100%;
   text-align: center;
 }
