@@ -63,16 +63,17 @@ div#content section.images{
   margin-right: 4em;
 }
 
-@media screen and (max-width:1290px) and (min-width: 1130px){
+@media screen and (max-width:1920px) and (min-width: 1367px){
 
-div#content section.images{
-  margin-left: 2em;
+  section.images{
+    margin-left: 5em;
+ }
+   img {
+    height: 22%;
+    width: 22%;
+    float: left;
 }
 
-div#content section.images img.image_row{
-    height: 22.2%;
-    width: 22.2%;
-}
 }
 
 @media screen and (max-width:1130px) and (min-width: 980px){

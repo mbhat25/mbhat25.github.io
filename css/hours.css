@@ -30,7 +30,18 @@ ul.hours{
     text-align: center;
 }
 
+@media screen and (max-width:1920px) and (min-width: 1367px){
 
+  section.images{
+    margin-left: 5em;
+ }
+   img {
+    height: 22%;
+    width: 22%;
+    float: left;
+}
+
+}
 @media screen and (max-width:980px) and (min-width: 768px){
 
 #content{
